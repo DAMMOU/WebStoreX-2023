@@ -1,4 +1,4 @@
-<p align="center"><a href="#" target="_blank"><img src="" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><a href="#" target="_blank"><img src="https://lafac.net/logo-WebStoreX-github.png" width="400" alt="Laravel Logo"></a></p>
 
 
 ## About WebStoreX 🚀
@@ -35,3 +35,4 @@ Une boutique en ligne élégante et puissante développée avec Laravel et Docke
                                             Merci pour votre intérêt à contribuer à WebStoreX !
                                                             © 2023 WebStoreX
 
+git remote set-url origin https://DAMMOU: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@github.com/DAMMOU/WebStoreX-2023.git
