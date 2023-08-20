@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\LocaleController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,12 +15,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/test', function () {
-    return view('test');
-});
+
 // FRONTEND ROUTES
 Route::controller(HomeController::class)->group(function () {
     Route::get('/', 'index');
     Route::post('/contact', 'contact')->name('contact');
     Route::get('/about', 'about')->name('about');
+    Route::get('/pri', 'showPrivacyPolicy')->name('privacy-policy');
 });
+
+// LOCALE ROUTES
+Route::get('/locale/{lang}', [LocaleController::class, 'language'])->name('locale');
